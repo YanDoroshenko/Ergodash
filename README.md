@@ -4,7 +4,7 @@
 
 ## General notes
 * I decided to go with a partially assembled PCB to save myself some time (and grief) due to my lack of soldering skills.
-* Parts list is for a big thumb cluster with 2 2u keys (LAYOUT_3key_2us) in [QMK configurator](https://config.qmk.fm/), you don't have to use the stabilizers and you don't need them at all if you don't have 2u keys.
+* Parts list is for a big thumb cluster with 2 2u keys (LAYOUT_3key_2us in [QMK configurator](https://config.qmk.fm/)), you don't have to use the stabilizers and you don't need them at all if you don't have 2u keys.
 * There's no per-key backlight so if you want something like LED layer or caps lock status indication, your best bet is using RGB underglow
 
 ## Parts list

@@ -20,6 +20,7 @@
 
 #### Parts you need for backlight
 `Note: You need a 470RΩ resistor and an LED for each of the backlit keys`
+
 `Note: These are metal film resistors, but it shouldn't matter`
 
 | Name | Notes | Price per unit |

@@ -46,7 +46,8 @@ There are not so many sources of dedicated Ergodash keycaps. Here are the ones I
 `Note: If this is the first flash, the Pro Micro will flash the red LEDs upon connecting to USB`
 
 Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/)
-![](https://imgur.com/a/F3rMY8h)
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/F3rMY8h"  ><a href="//imgur.com/a/F3rMY8h">Flash</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Resources
 [Official Ergodash build](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)

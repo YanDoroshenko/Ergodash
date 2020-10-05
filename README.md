@@ -41,9 +41,10 @@ There are not so many sources of dedicated Ergodash keycaps. Here are the ones I
 
 ## Build process
 
-####1. Soldering the Pro Micro headers
-####2. Flashing the Pro Micro
+#### 1. Soldering the Pro Micro headers
+#### 2. Flashing the Pro Micro
 `Note: If this is the first flash, the Pro Micro will flash the red LEDs upon connecting to USB`
+
 Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/)
 ![](https://imgur.com/a/F3rMY8h)
 

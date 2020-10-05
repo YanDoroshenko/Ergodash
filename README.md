@@ -17,6 +17,7 @@
 | [Case](https://keycapsss.com/keyboard-parts/cases/76/ergodash-acrylic-plate-case?c=12) || 32.9 € |
 | [Switches](https://candykeys.com/product/cherry-mx-blue-plate-m) | 100x, but you only need around 70 | 42 € |
 | [Stabilizers](https://candykeys.com/product/genuine-cherry-mx-stabiliser-pack-plate-mount) | 4x 2u, plate mounted | 9 € |
+| 24x [Underglow LEDs](https://www.tme.eu/cz/details/ws2812b-v5/diody-led-smd-barevne/worldsemi/) | WS2812B | ~10 € |
 
 #### Parts you need for backlight
 `Note: You need a 470RΩ resistor and an LED for each of the backlit keys`
@@ -39,6 +40,14 @@ There are not so many sources of dedicated Ergodash keycaps. Here are the ones I
 * [FalbaTech](https://falba.tech/product/dsa-keycaps-black-blank-left-right-keyboards-redox-copy/?v=928568b84963)
 
 ## Build process
+
+#### 1. Soldering the Pro Micro headers
+#### 2. Flashing the Pro Micro
+`Note: If this is the first flash, the Pro Micro will flash the red LEDs upon connecting to USB`
+
+Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/)
+
+![Alt text](.gif/flash.gif)
 
 ## Resources
 [Official Ergodash build](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)

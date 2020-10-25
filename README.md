@@ -1,6 +1,6 @@
 # Ergodash
 
-`Note: Information as of September 2020`
+> Note: Information as of September 2020
 
 ## General notes
 * I decided to go with a partially assembled PCB to save myself some time (and grief) due to my lack of soldering skills.
@@ -8,7 +8,7 @@
 * There's no per-key backlight so if you want something like LED layer or caps lock status indication, your best bet is using RGB underglow
 
 ## Parts list
-`Note: Doesn't include keycaps`
+> Note: Doesn't include keycaps
 
 | Name | Notes | Total Price |
 |:----:|:-----:|:-----------:|
@@ -20,9 +20,9 @@
 | 24x [Underglow LEDs](https://www.tme.eu/cz/details/ws2812b-v5/diody-led-smd-barevne/worldsemi/) | WS2812B | ~10 € |
 
 #### Parts you need for backlight
-`Note: You need a 470RΩ resistor and an LED for each of the backlit keys`
+> Note: You need a 470RΩ resistor and an LED for each of the backlit keys
 
-`Note: These are metal film resistors, but it shouldn't matter`
+> Note: These are metal film resistors, but it shouldn't matter
 
 | Name | Notes | Price per unit |
 |:----:|:-----:|:-----------:|
@@ -61,6 +61,8 @@ Flash the Pro Micro from your computer, using the reset button instead of shorti
 Open [QMK Configurator test](https://config.qmk.fm/#/test) and shorten contacts under each switch using tweezers, a piece of wire or anything else conductive. Keep in mind that not all keys will be registered (the exceptions include QMK layer switching keys).
 
 #### 5. Underglow
+
+> Note: for ungerglow to work, you need to have `RGBLIGHT_ENABLE = yes` in your `rules.mk`
 
 Jump the pins on the Pro Micro side of the PCB like this:
 

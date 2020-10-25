@@ -46,7 +46,7 @@ I did it a bit differently than the official build guide suggests just because I
 
 Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/).
 
-![Alt text](.gif/flash.gif)
+![](.gif/flash.gif)
 
 #### 2. Temporarily attaching the Pro Micro
 
@@ -65,14 +65,25 @@ Open [QMK Configurator test](https://config.qmk.fm/#/test) and shorten contacts 
 Jump the pins on the Pro Micro side of the PCB like this:
 
 Left hand:
-
+![](.img/left_jump.jpg)
 Right hand:
+![](.img/right_jump.jpg)
 
 Solder on the LEDs. Pay attention to the orientation (position of the chamfered corner of the diode is indicated on the PCB). Method that worked best for me was to put flux on the PCB, hold the LED in place with reverse tweezers and solder all four corners one by one.
 
+![](.img/underglow_orientation.jpg)
+
 The LEDs are connected sequentially so if something is not working, check the soldering of the last working LED and the first not working one.
 
-#### 6. Assemble the plate
+![](.img/underglow_order.jpg)
+
+Check the underglow using the `RGB_TOG` key.
+
+#### 7. Painting the Pro Micro and PCB
+
+Using a permanent marker paint the sides of the Pro Micro and the PCB. This step is obviously optional, but it does look cooler if you do it.
+
+#### 6. Assembling the plate
 
 Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation.
 

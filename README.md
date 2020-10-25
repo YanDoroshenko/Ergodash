@@ -38,13 +38,43 @@ There are not so many sources of dedicated Ergodash keycaps. Here are the ones I
 
 ## Build process
 
-#### 1. Soldering the Pro Micro headers
-#### 2. Flashing the Pro Micro
-`Note: If this is the first flash, the Pro Micro will flash the red LEDs upon connecting to USB`
+# DO NOT ATTACH THE PRO MICRO BEFORE YOU HAVE ALL THE SWITCHES SOLDERED ON, OTHERWISE YOU WON'T BE ABLE TO ATTACH THE TWO SWITCHES UNDER THE PRO MICRO PROPERLY
 
-Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/)
+I did it a bit differently than the official build guide suggests just because I wanted to be extra sure everything works as expected prior to doing anything that can't be easily reverted.
+
+#### 1. Flashing the Pro Micro
+
+Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/).
 
 ![Alt text](.gif/flash.gif)
+
+#### 2. Temporarily attaching the Pro Micro
+
+To check that everything works as expected, I attached the Pro Micro to the PCB using aluminum foil to create a connection between the Pro Micro and the headers.
+
+#### 3. Checking the reset switch
+
+Flash the Pro Micro from your computer, using the reset button instead of shorting the pins directly.
+
+#### 4. Checking all the keys
+
+Open [QMK Configurator test](https://config.qmk.fm/#/test) and shorten contacts under each switch using tweezers, a piece of wire or anything else conductive. Keep in mind that not all keys will be registered (the exceptions include QMK layer switching keys).
+
+#### 5. Underglow
+
+Jump the pins on the Pro Micro side of the PCB like this:
+
+Left hand:
+
+Right hand:
+
+Solder on the LEDs. Pay attention to the orientation (position of the chamfered corner of the diode is indicated on the PCB). Method that worked best for me was to put flux on the PCB, hold the LED in place with reverse tweezers and solder all four corners one by one.
+
+The LEDs are connected sequentially so if something is not working, check the soldering of the last working LED and the first not working one.
+
+#### 6. Assemble the plate
+
+Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation.
 
 ## Resources
 [Official Ergodash build](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)

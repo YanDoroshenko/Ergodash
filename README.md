@@ -44,13 +44,15 @@ I did it a bit differently than the official build guide suggests just because I
 
 #### 1. Flashing the Pro Micro
 
-Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/).
+Layout creation, compilation and flashing instructions can be found in the [QMK docs](https://docs.qmk.fm/#/). To reset short the RST and GND pins.
 
 ![](.gif/flash.gif)
 
 #### 2. Temporarily attaching the Pro Micro
 
-To check that everything works as expected, I attached the Pro Micro to the PCB using aluminum foil to create a connection between the Pro Micro and the headers.
+To check that everything works as expected, I attached the Pro Micro to the PCB using tin foil to create a connection between the Pro Micro and the headers.
+
+![](.img/promicro_temp.jpg)
 
 #### 3. Checking the reset switch
 
@@ -58,7 +60,7 @@ Flash the Pro Micro from your computer, using the reset button instead of shorti
 
 #### 4. Checking all the keys
 
-Open [QMK Configurator test](https://config.qmk.fm/#/test) and shorten contacts under each switch using tweezers, a piece of wire or anything else conductive. Keep in mind that not all keys will be registered (the exceptions include QMK layer switching keys).
+Open [QMK Configurator test](https://config.qmk.fm/#/test) and short the pins under each switch using tweezers, a piece of wire or anything else conductive. Keep in mind that not all keys will be registered (the exceptions include QMK layer switching keys).
 
 #### 5. Underglow
 
@@ -81,13 +83,32 @@ The LEDs are connected sequentially so if something is not working, check the so
 
 Check the underglow using the `RGB_TOG` key.
 
-#### 7. Painting the Pro Micro and PCB
+#### 6. Removing the Pro Micro
+
+If everything is working as expected, remove the Pro Micro and all the traces of the temporary attachment. Be careful not to leave any tin foil as it can short the pins of the Pro Micro which is extremely difficult to desolder.
+
+#### 7. Assembling the plate
+
+Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation.
+
+#### 8. Reinforcing the USB port on the Pro Micro
+Pro Micros are notorious for having a weak USB port so to prevent it being torn off it can be reinforced with a bit of epoxy. Be extra careful not to get any epoxy inside the connector.
+
+#### 9. Painting the Pro Micro and PCB
 
 Using a permanent marker paint the sides of the Pro Micro and the PCB. This step is obviously optional, but it does look cooler if you do it.
 
-#### 6. Assembling the plate
+#### 10. Soldering the switches
 
-Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation.
+Solder the switches onto the PCB starting with four switches at the corners of the plate for stability and convenience.
+
+#### 11. Soldering the Pro Micro
+
+As mentioned earlier, desoldering a Pro Micro is not a trivial task so try to get it perfect the first time.
+
+#### 12. Assembling the case
+
+This is pretty self explanatory, first attach the standoffs to the plate and then screw the bottom cover in place. Attach the rubber feet.
 
 ## Resources
 [Official Ergodash build](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)

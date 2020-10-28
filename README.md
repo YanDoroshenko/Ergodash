@@ -15,9 +15,12 @@
 | [PCB](https://falba.tech/product/ergodash-partially-assembled-with-electronics-cables/?v=928568b84963) | Partially assembled and comes with a TRPS cable | 50 € |
 | 2x [Pro Micro clone](laskarduino.cz/arduino-leonardo-pro-micro/) | It's said that you can use [Elite-C](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) if you want USB Type C | ~12 € |
 | [Case](https://keycapsss.com/keyboard-parts/cases/76/ergodash-acrylic-plate-case?c=12) | Comes with rubber feet | 32.9 € |
+| Plate from [LaserBoost](https://www.laserboost.com/) | Custom plate, acryllic one that comes with the case has non-standard thickness (doesn't support plate mounted switches and stabilizers correctly) and significant flex | ~70 € |
 | [Switches](https://candykeys.com/product/cherry-mx-blue-plate-m) | 100x, but you only need around 70 | 42 € |
 | [Stabilizers](https://candykeys.com/product/genuine-cherry-mx-stabiliser-pack-plate-mount) | 4x 2u, plate mounted | 9 € |
 | 24x [Underglow LEDs](https://www.tme.eu/cz/details/ws2812b-v5/diody-led-smd-barevne/worldsemi/) | WS2812B | ~10 € |
+|:-----:|:-----:|:-----------:|
+| Total |       |             |
 
 #### Parts you need for backlight
 > Note: You need a 470RΩ resistor and an LED for each of the backlit keys

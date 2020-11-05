@@ -91,13 +91,15 @@ If everything is working as expected, remove the Pro Micro and all the traces of
 
 #### 7. Assembling the plate
 
-Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation.
+Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation. This is also a good time to mod stabilizers if you're so inclined.
 
 ![](.img/plate.jpg)
 
 #### 8. Reinforcing the USB port on the Pro Micro
 
 Pro Micros are notorious for having a weak USB port so to prevent it being torn off it can be reinforced with a bit of epoxy. Be extra careful not to get any epoxy inside the connector.
+
+![](.img/epoxy.jpg)
 
 #### 9. Painting the Pro Micro and PCB
 
@@ -114,6 +116,8 @@ Solder the switches onto the PCB starting with four switches at the corners of t
 #### 11. Soldering the Pro Micro
 
 As mentioned earlier, desoldering a Pro Micro is not a trivial task so try to get it perfect the first time.
+
+![](.img/promicro.jpg)
 
 #### 12. Assembling the case
 

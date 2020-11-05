@@ -16,10 +16,10 @@
 | 2x [Pro Micro clone](laskarduino.cz/arduino-leonardo-pro-micro/) | It's said that you can use [Elite-C](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) if you want USB Type C | ~12 € |
 | [Case](https://keycapsss.com/keyboard-parts/cases/76/ergodash-acrylic-plate-case?c=12) | Comes with rubber feet | 32.9 € |
 | Plate from [LaserBoost](https://www.laserboost.com/) | Custom plate, acryllic one that comes with the case has non-standard thickness (doesn't support plate mounted switches and stabilizers correctly) and significant flex | ~70 € |
-| [Switches](https://candykeys.com/product/cherry-mx-blue-plate-m) | 100x, but you only need around 70 | 42 € |
+| [Switches](https://www.czc.cz/glorious-mechanicke-spinace-panda-36ks/300529/produkt) | 72x, 68 needed for this build | ~52 € |
 | [Stabilizers](https://candykeys.com/product/genuine-cherry-mx-stabiliser-pack-plate-mount) | 4x 2u, plate mounted | 9 € |
 | 24x [Underglow LEDs](https://www.tme.eu/cz/details/ws2812b-v5/diody-led-smd-barevne/worldsemi/) | WS2812B | ~10 € |
-| **Total** |       |        **225 €**     |
+| **Total** |       |        **235 €**     |
 
 #### Parts you need for backlight
 > Note: You need a 470RΩ resistor and an LED for each of the backlit keys
@@ -34,7 +34,7 @@
 | [470Ω resistor](https://www.gme.cz/rm-470r-0207-0-6w-1)| 6.3x2.4mm, 0.6W | ~0.11 € |
 
 #### Keycaps
-There are not so many sources of dedicated Ergodash keycaps. Here are the ones I've found: 
+There are not so many sources of dedicated Ergodash keycaps. Here are the ones I've found:
 * [OhKeycaps](https://ohkeycaps.com/collections/dsa-blanks/products/dsa-pink-purple?variant=29211011711087) (small thumb cluster version)
 * [FalbaTech](https://falba.tech/product/dsa-keycaps-black-blank-left-right-keyboards-redox-copy/?v=928568b84963)
 
@@ -93,16 +93,23 @@ If everything is working as expected, remove the Pro Micro and all the traces of
 
 Assemble the stabilizers and attach them to the plate, then attach the switches. Pay attention to the switch orientation.
 
+![](.img/plate.jpg)
+
 #### 8. Reinforcing the USB port on the Pro Micro
+
 Pro Micros are notorious for having a weak USB port so to prevent it being torn off it can be reinforced with a bit of epoxy. Be extra careful not to get any epoxy inside the connector.
 
 #### 9. Painting the Pro Micro and PCB
 
 Using a permanent marker paint the sides of the Pro Micro and the PCB. This step is obviously optional, but it does look cooler if you do it.
 
+![](.img/paint.jpg)
+
 #### 10. Soldering the switches
 
 Solder the switches onto the PCB starting with four switches at the corners of the plate for stability and convenience.
+
+![](.img/switches.jpg)
 
 #### 11. Soldering the Pro Micro
 
@@ -111,6 +118,14 @@ As mentioned earlier, desoldering a Pro Micro is not a trivial task so try to ge
 #### 12. Assembling the case
 
 This is pretty self explanatory, first attach the standoffs to the plate and then screw the bottom cover in place. Attach the rubber feet.
+
+> Note: the case comes with 6mm standoffs which are way to short for use with a standard 1.5 mm thich plate, standoffs of the appropriate length (8-9 mm) can be found on eBay dirt cheap
+
+![](.img/case.jpg)
+
+### Result
+
+![](.img/ergodash.jpg)
 
 ## Resources
 [Official Ergodash build](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)

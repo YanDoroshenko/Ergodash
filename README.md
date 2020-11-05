@@ -5,14 +5,14 @@
 ## General notes
 * I decided to go with a partially assembled PCB to save myself some time (and grief) due to my lack of soldering skills.
 * Parts list is for a big thumb cluster with 2 2u keys (LAYOUT_3key_2us in [QMK configurator](https://config.qmk.fm/)), you don't have to use the stabilizers and you don't need them at all if you don't have 2u keys.
-* There's no per-key backlight so if you want something like LED layer or caps lock status indication, your best bet is using RGB underglow
+* There's no per-key backlight so if you want something like LED layer or caps lock status indication, your best bet is using RGB underglow.
 
 ## Parts list
 > Note: Doesn't include keycaps
 
 | Name | Notes | Total Price |
 |:----:|:-----:|:-----------:|
-| [PCB](https://falba.tech/product/ergodash-partially-assembled-with-electronics-cables/?v=928568b84963) | Partially assembled and comes with a TRPS cable | 50 € |
+| [PCB](https://falba.tech/product/ergodash-partially-assembled-with-electronics-cables/?v=928568b84963) | Partially assembled and comes with a TRRS cable | 50 € |
 | 2x [Pro Micro clone](laskarduino.cz/arduino-leonardo-pro-micro/) | It's said that you can use [Elite-C](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) if you want USB Type C | ~12 € |
 | [Case](https://keycapsss.com/keyboard-parts/cases/76/ergodash-acrylic-plate-case?c=12) | Comes with rubber feet | 32.9 € |
 | Plate from [LaserBoost](https://www.laserboost.com/) | Custom plate, acryllic one that comes with the case has non-standard thickness (doesn't support plate mounted switches and stabilizers correctly) and significant flex | ~70 € |
@@ -123,7 +123,7 @@ As mentioned earlier, desoldering a Pro Micro is not a trivial task so try to ge
 
 This is pretty self explanatory, first attach the standoffs to the plate and then screw the bottom cover in place. Attach the rubber feet.
 
-> Note: the case comes with 6mm standoffs which are way to short for use with a standard 1.5 mm thich plate, standoffs of the appropriate length (8-9 mm) can be found on eBay dirt cheap
+> Note: The case comes with 6mm standoffs which are way to short for use with a standard 1.5 mm thich plate, standoffs of the appropriate length (8-9 mm) can be found on eBay dirt cheap
 
 ![](.img/case.jpg)
 
